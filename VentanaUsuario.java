@@ -11,7 +11,7 @@ public class VentanaUsuario extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         datos = new DefaultTableModel();
         datos.addColumn("Name");
-       // datos.addColumn("Apellidos");
+        datos.addColumn("Apellidos");
         datos.addColumn("Cédula");
         this.tabla.setModel(datos);
         try{
